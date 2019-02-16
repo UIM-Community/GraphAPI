@@ -65,11 +65,11 @@ server.post("/", async (req, res) => {
 });
 
 server.post("/pu", async (req, res) => {
-    const { path, args = [] } = req.body.query;
+    const { path, args = [] } = req.body;
     if (typeof path !== "string") {
         send(res, 400, "body.path must be a string");
     }
-    if (!Array.isArray(arg)) {
+    if (!Array.isArray(args)) {
         send(res, 400, "body.args must be an Array of arguments (or undefined)");
     }
 
