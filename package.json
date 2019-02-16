@@ -1,0 +1,29 @@
+{
+  "name": "@uim/graphql-api",
+  "version": "1.0.0",
+  "description": "CA UIM GraphQL API",
+  "main": "index.js",
+  "scripts": {
+      "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/UIM-Community/GraphAPI.git"
+  },
+  "keywords": [],
+  "author": "GENTILHOMME Thomas <gentilhomme.thomas@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/UIM-Community/GraphAPI/issues"
+  },
+  "homepage": "https://github.com/UIM-Community/GraphAPI#readme",
+  "dependencies": {
+    "@uim/pu": "^1.1.3",
+    "graphql": "^14.1.1"
+  },
+  "devDependencies": {
+    "@slimio/eslint-config": "^2.0.3",
+    "@types/node": "^11.9.4"
+  }
+}
